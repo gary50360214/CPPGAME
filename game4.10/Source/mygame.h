@@ -31,12 +31,11 @@ class CGameMap
         void LoadBitmap();
         void OnShow();
         void OnMove();
-        void OnKeyDown(UINT);
-        void RandomBouncingBall();
-        void InitializeBouncingBall(int, int, int);
+
         ~CGameMap();
     private:
-        CMovingBitmap orange, star;
+
+        CMovingBitmap orange, star, bg;
         int map[4][5];
         const int X, Y;
         const int MW, MH;
@@ -109,7 +108,7 @@ class CGameStateRun : public CGameState
 
         int picX, picY;
 
-        CGameMap gamemap;
+        CMovingBitmap gamemap;
 };
 
 /////////////////////////////////////////////////////////////////////////////

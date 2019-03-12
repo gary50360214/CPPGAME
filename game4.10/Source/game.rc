@@ -112,6 +112,8 @@ IDB_STAR                BITMAP                  "C:\\Users\\user\\Documents\\OOP
 
 IDB_BITMAP4             BITMAP                  "C:\\Users\\user\\Documents\\OOP\\game4.10\\RES\\ladder.bmp"
 
+IDB_BG                  BITMAP                  "C:\\Users\\user\\Documents\\CPPGAME\\game4.10\\RES\\bg.bmp"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //

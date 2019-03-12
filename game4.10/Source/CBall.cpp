@@ -101,4 +101,6 @@ void CBall::OnShow()
         bmp_center.ShowBitmap();
     }
 }
+
+
 }

@@ -324,6 +324,11 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\OOP\game4.10\RES\kirby1.bmp" />
+    <Image Include="..\..\OOP\game4.10\RES\ladder.bmp" />
+    <Image Include="..\..\OOP\game4.10\RES\orange.bmp" />
+    <Image Include="..\..\OOP\game4.10\RES\star.bmp" />
+    <Image Include="RES\bg.bmp" />
     <Image Include="res\bitmap4.bmp" />
     <Image Include="RES\kirby1.bmp" />
     <Image Include="RES\ladder.bmp" />

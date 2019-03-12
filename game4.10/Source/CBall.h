@@ -29,4 +29,24 @@ class CBall
     private:
         bool HitRectangle(int tx1, int ty1, int tx2, int ty2);	// 是否碰到參數範圍的矩形
 };
+
+/*class CStar
+{
+public:
+	CStar();
+	bool HitKirby(CKirby* kirby);						// 是否碰到卡比
+	bool IsAlive();											// 是否活著
+	void LoadBitmap();										// 載入圖形
+	void OnMove();											// 移動
+	void OnShow();											// 將圖形貼到畫面
+	void SetXY(int nx, int ny);								// 設定圓心的座標
+	void SetIsAlive(bool alive);							// 設定是否活著
+protected:
+	CMovingBitmap star;			// 星星的圖
+	int x, y;					// 圓心的座標
+	int dx, dy;					// 球距離圓心的位移量
+	bool is_alive;				// 是否活著
+private:
+	bool HitRectangle(int tx1, int ty1, int tx2, int ty2);	// 是否碰到參數範圍的矩形
+};*/
 }
